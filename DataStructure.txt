@@ -1,0 +1,57 @@
+
+I) What is a linked list?
+A linked list is a linear data structure, which consists of nodes where each node contains a data field and a reference(link) to the next node in the list.
+There are 4 types of linked lists
+1. Singly - Data and next field which points to the next node in the sequence
+2. Doubly - Previous, data, next field. We can do forward and backward operations
+3. Singly circular - The end node of the linkedlist is attached to the first node of the linkedlist and only forward operation is possible
+4. Doubly circular - The end node of the linkedlist is attached to the first node of the linkedlist and also each node's prevoius and next is connected to its sequencial nodes. Forward and backward operations are possible
+
+
+II) What is stack?
+It is a linear data structure in which operations are done in LIFO manner. Push and Pop operations are performed.
+Top is used to check whether stack is full or empty.
+
+
+III) What is queue? Explain dequeue.
+It is a linear structure which follows a particular order in which the operations are performed.
+The order is FIFO. Queue consists of rear and front. Insertion and deletion are performed in different ends.
+Types of queue,
+1. Simple queue - Insertion at rear and deletion at front. Strictly follows FIFO
+2. Circular queue - Similar to simple queue except that the last element is connected to first element. The drawback (traversing) of simple queue is overcomed.
+3. Priority queue - It is a special type if queue in which elements are arranged based on priority, every element has priority associated with it, if 2 elements have same priority then they will be arranged according to FIFO principle
+4. Dequeue - Insertion and deletion can be done from both ends (Front or rear). Used as stack and queueas it allows operations on both ends.
+
+
+
+IV) What is graph?
+Its is a non linear data structure consists of node and edges. It is collection of nodes that have data and are connected to other nodes.
+On facebook, everything is a node. That includes User, Photo, Album, Event, Group, Page, Comment, Story, Video, Link.
+
+
+V) What is tree?
+It is a non linear and hierarchical DS consisting of a collection of nodes such that each node of the tree stores a value. And list of references to other nodes (childern).
+
+
+VI) What is the difference between tree and graph data structure?
+Tree and graph are differentiated by the fact that a tree structure must be connected and can never have loops whereas in the graph there are no restrictions.
+Tree provides insights on relationship between nodes in a hierarchical manner and graph follows a network model.
+
+
+VII) What is hash?
+Hash Table is a data structure which stores data in an associative manner. In a hash table, data is stored in an array format, where each data value has its own unique index value. Access of data becomes very fast if we know the index of the desired data.
+
+
+VIII) What is Data Structure?
+Data structure is a fundamental concept of any programming language, essential for algorithmic design.
+It is used for the efficient organization and modification of data. 2 types - squential and 
+
+
+IX) What are Binary trees?
+A binary Tree is a special type of tree where each node can have at most two children. Binary tree is generally partitioned into three disjoint subsets, i.e. the root of the tree, left sub-tree and right sub-tree.
+The maximum nodes are : 2k+1-1 where k >= 1
+
+
+X)  What is a Binary Search Tree?
+A binary search tree (BST) is a variant of binary tree data structure that stores data in a very efficient manner such that the values of the nodes in the left sub-tree are less than the value of the root node, and the values of the nodes on the right of the root node are correspondingly higher than the root.
+Also, individually the left and right sub-trees are their own binary search trees at all instances of time.
